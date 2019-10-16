@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="alumnoLabel" alignment="0" min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="talleresLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="parcial2Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="parcial1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="proyectoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="registroButton" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="alumnoTF" alignment="0" pref="161" max="32767" attributes="0"/>
+                      <Component id="parcial1TF" alignment="0" max="32767" attributes="0"/>
+                      <Component id="parcial2TF" alignment="0" max="32767" attributes="0"/>
+                      <Component id="talleresTF" alignment="0" max="32767" attributes="0"/>
+                      <Component id="proyectoTF" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="310" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="alumnoLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="alumnoTF" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="parcial1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="parcial1TF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="parcial2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="parcial2TF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="talleresLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="talleresTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="proyectoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="proyectoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="registroButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="83" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="alumnoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alumno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="parcial1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parcial 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="parcial2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parcial 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="talleresLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Talleres"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="proyectoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proyecto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="alumnoTF">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="parcial1TF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="parcial2TF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="talleresTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="proyectoTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="registroButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registroButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
